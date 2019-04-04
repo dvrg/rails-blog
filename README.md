@@ -37,5 +37,17 @@ If the test suite passes, you'll be ready to run the app in a local server:
 $ rails server
 ```
 
+Jalanin sesuai environment production
+
+```
+$ rails server --environment production
+```
+
+Migrate sesuai environtment
+
+```
+$ rails db:migrate RAILS_ENV=production
+```
+
 For more information, see the
 [*Ruby on Rails Tutorial* book](https://www.railstutorial.org/book).
