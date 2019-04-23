@@ -16,10 +16,22 @@ To get started with the app, clone the repo and then install the needed gems:
 $ bundle install --without production
 ```
 
+Create the database
+
+```
+$ rake db:create
+```
+
 Next, migrate the database:
 
 ```
-$ rails db:migrate
+$ rake db:migrate
+```
+
+Seed data
+
+```
+$ rake db:seed
 ```
 
 Finally, run the test suite to verify that everything is working correctly:
@@ -47,4 +59,4 @@ $ rails db:migrate RAILS_ENV=production
 ```
 
 For more information, see the
-[*Ruby on Rails Tutorial* book](https://www.railstutorial.org/book).
+[_Ruby on Rails Tutorial_ book](https://www.railstutorial.org/book).
