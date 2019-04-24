@@ -26,4 +26,7 @@
 /spring/*.pid
 
 # Environtment
-.env*
+.env.*
+
+# upload folder
+/public/uploads/
